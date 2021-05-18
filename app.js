@@ -15,8 +15,8 @@ db.authenticate()
   .then(() => console.log('Checking database connection...'))
   .catch((error) => console.log('Error' + error));
 
-// app.use('/api/auth', userController);
-// app.use('/api/game', gameController);
+// app.use('/api/auth', userController());
+// app.use('/api/game', gameController());
 
 app.listen(port, () => {
   console.log(`App is listening on port: ${port}`);
