@@ -11,8 +11,10 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "jsonwebtoken": "^8.3.0",
-    "pg": "^7.6.0",
-    "sequelize": "^4.41.0"
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^4.44.4",
+    "sequelize-cli": "^6.2.0"
   },
   "devDependencies": {
     "dotenv": "^9.0.2",

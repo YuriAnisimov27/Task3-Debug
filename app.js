@@ -11,10 +11,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 // app.use(validateSession);
 
-db.authenticate()
-  .then(() => console.log("Checking database connection..."))
-  .catch((error) => console.log("Error" + error));
-
 // app.use('/api/auth', userController());
 app.use("/api/game", gameController);
 
